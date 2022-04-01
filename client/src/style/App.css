@@ -1,0 +1,129 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.navbar {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.navbar a,
+.navbar button {
+  line-height: 50px;
+  margin: 0 20px;
+  background-color: #3b3838;
+  border: none;
+  color: white;
+  width: 100%;
+  transition: all 0.2s ease-out;
+}
+
+.searchBar {
+  display: flex;
+  height: 50px;
+}
+
+.searchBar input {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.post {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 10px;
+}
+
+.newPost {
+  display: flex;
+  height: 50px;
+}
+
+.newPost input {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  min-height: 200px;
+}
+
+.form form input {
+  
+  padding: 10px;
+  border: none;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 1px solid silver;
+}
+
+.form form button {
+  padding: 10px;
+  width: 100%;
+}
+
+.form form,
+.form form button,
+.neumorphic {
+  box-shadow: none;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3b3838;
+  color: white;
+  transition: all 0.2s ease-out;
+}
+
+.form form button:hover,
+.neumorphic:hover {
+    box-shadow: -5px -5px 10px #636363, 5px 5px 10px black;
+}
+
+.form form input,
+.form form button,
+.neumorphicInverse {
+  box-shadow: none;
+  background-color: #3b3838;
+  color: white;
+  transition: all 0.2s ease-out;
+}
+
+.form form input:hover,
+.form form button:active,
+.neumorphicInverse:hover {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px #636363;
+}

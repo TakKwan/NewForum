@@ -1,0 +1,14 @@
+body {
+  background: #3b3838;
+  color: #d1cbcb;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: monospace;
+}
+
+
+#root {
+  height: 100%
+}
